@@ -8,7 +8,7 @@ body{
 .orange{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
@@ -22,7 +22,7 @@ section{
 }
 .hire{
     text-decoration: none;
-    background-image: linear-gradient(coral,pink);
+    background-image: linear-gradient(salmon,tomato);
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -39,4 +39,38 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 10%;
+}
+.half{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: %;
+    padding: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+}
+h2{
+    font-size: 40px;
+}
+.experience
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+}
+#JuniorStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#FullStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.x{
+    font-size: 30px;
 }
